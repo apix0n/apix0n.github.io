@@ -1,0 +1,358 @@
+/* Made by Apix | @apix0n */
+/* style.css for https://github.com/apix0n/Armus */
+
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Noto+Color+Emoji&display=swap');
+
+:root {
+  --text: #24292f;
+  --text-2: #808080;
+  --background: #ffffff;
+  --background-2: #e9e9e9;
+  --accent: var(--rank1);
+  --rank1: #ffca28;
+  --rank2: #5dadec;
+  --rank3: #be1923;
+  --rank4: #00d26a;
+  --font-size: 18.5px;
+  --scroll-size: 60px;
+  --scroll-border-size: 6px;
+  --table: #5c5c5c;
+  --btn-border: #000000;
+  --link-color: #518ef0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif, "Apple Color Emoji", "Noto Color Emoji";
+  font-size: var(--font-size);
+  color: var(--text);
+  background-color: var(--background);
+  margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #ffffff;
+    --text-2: #a2a2a2;
+    --background: #0d1117;
+    --background-2: #24292f;
+    --btn-border: #ffffff;
+    color-scheme: dark;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  :root {
+    --font-size: 16.5px;
+    --scroll-size: 40px;
+    --scroll-border-size: 4px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--table);
+  border-radius: 20px;
+  border: 4px solid var(--background);
+}
+
+a {
+  color: var(--link-color);
+}
+
+img {
+  border-radius: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid var(--table);
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 21.788px;
+}
+
+code {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: .8em;
+  background-color: var(--background-2);
+  border-radius: 6px;
+  white-space: nowrap;
+  font-family: "Ubuntu Mono", Consolas, Menlo, Monaco, "Lucida Console, Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
+}
+
+li {
+  line-height: 1.6em;
+}
+
+blockquote {
+  border-left: 5px solid var(--background-2);
+  padding-left: 7.5px;
+}
+
+.accentedtext,
+.rank1,
+.rank2,
+.rank3,
+.rank4 {
+  text-decoration: none;
+  font-weight: 600;
+  transition: text-shadow 0.5s;
+}
+
+.accentedtext {
+  color: var(--accent) !important;
+  text-decoration-color: var(--accent) !important;
+}
+
+.rank1 {
+  color: var(--rank1) !important;
+  text-decoration-color: var(--rank1) !important;
+}
+
+.rank2 {
+  color: var(--rank2) !important;
+  text-decoration-color: var(--rank2) !important;
+}
+
+.rank3 {
+  color: var(--rank3) !important;
+  text-decoration-color: var(--rank3) !important;
+}
+
+.rank4 {
+  color: var(--rank4) !important;
+  text-decoration-color: var(--rank4) !important;
+}
+
+#one {
+  color: #ffffff;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  line-height: .1em;
+  margin: 0;
+  padding: 0;
+  border-radius: 0 0 10px 10px;
+  background: #ff0000;
+  background: linear-gradient(145deg, #ff0000 0%, #790909 35%, #2b0000 100%);
+  background-size: 400% 400%;
+  animation: animated-gradient 10s ease infinite;
+}
+
+/** Enable animations on hover (only if device has a precise pointer device) */
+
+@media (pointer: fine) {
+  .card:hover {
+    scale: 105%;
+    transition: scale 0.25s, box-shadow 0.25s;
+  }
+
+  .scroll:hover {
+    transition: scale 0.5s;
+    scale: 1.1;
+  }
+
+  .navbar ul li a:hover {
+    transition: color 0.25s;
+    color: var(--link-color);
+  }
+}
+
+@keyframes animated-gradient {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+#one h1 {
+  font-size: min(15vw, 7em);
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.scroll {
+  height: var(--scroll-size);
+  width: var(--scroll-size);
+  border: var(--scroll-border-size) solid #ffffff;
+  border-radius: var(--scroll-size);
+  color: white;
+  font-size: var(--scroll-size);
+  transition: scale 0.5s;
+}
+
+.svgicon {
+  height: 1em !important;
+  width: 1em !important;
+  display: inline-flex;
+  align-self: center;
+  top: .125em;
+  position: relative;
+  border-radius: 0;
+}
+
+#two {
+  margin: 8px;
+  max-width: 1500px;
+  margin: auto;
+}
+
+summary {
+  cursor: pointer;
+}
+
+details>ul {
+  margin-top: .5em;
+}
+
+.spaceline {
+  height: 3px;
+  width: 75%;
+  background: var(--accent);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  background-color: var(--background-2);
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar ul {
+  padding: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navbar ul li {
+  list-style: none;
+  font-size: 15px;
+  text-decoration: none;
+  float: left;
+  display: block;
+  padding: 10px;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: var(--text);
+  transition: color 0.25s;
+}
+
+.remerciements a {
+  color: inherit;
+}
+
+.remerciements code a {
+  color: var(--addchar-gh-label);
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.list-nopadding,
+.list-nopadding * {
+  padding: 0px;
+}
+
+.card {
+  background: var(--background-2);
+  border-radius: 10px;
+  flex-direction: column;
+  display: inline-flex;
+  overflow: hidden;
+  align-items: center;
+  transition: scale 0.25s, box-shadow 0.25s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.card img {
+  width: 227px;
+  height: auto;
+  background-color: var(--table);
+}
+
+@media screen and (max-width: 768px) {
+  .card img {
+    width: 150px;
+  }
+}
+
+.card .text {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  flex-direction: column;
+  display: flex;
+  font-weight: 600;
+}
+
+.card .text .cardcharactername {
+  color: var(--text);
+  text-align: center;
+}
+
+.card .text .cardartist {
+  justify-content: center;
+  display: inline-flex;
+  text-align: center;
+  color: var(--text-2);
+  font-size: .8em;
+  gap: 3px;
+}
+
+.card .text .carddate {
+  color: var(--text-2);
+  font-size: .8em;
+  text-align: center;
+}
+
+#army h2 {
+  margin-bottom: 1rem;
+}
+
+#cardscontainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-bottom: 18.5px;
+  gap: 17.5px;
+}

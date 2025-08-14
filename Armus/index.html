@@ -1,0 +1,1042 @@
+<html lang="fr">
+
+    <head>
+        <title>Armus</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="mask-icon" href="icon.svg" color="#ff0000">
+        <link rel="apple-touch-icon" sizes="114x114" href="at-icon.png">
+        <meta property="og:image" content="social.png">
+        <meta name="description" content="Un projet que j'ai créé avec un ami dans l'espoir de faire une armée d'amogi">
+        <script src="main.js" async=""></script>
+        <link rel="manifest" href="manifest.json">
+    </head>
+
+    <body onload="addAllCharacters()">
+        <section id="one" class="color-fr">
+            <h1>Armus <img class="svgicon" src="icon.svg"></h1>
+            <h2 style="margin-bottom: 10px;">🎊 150 personnages 🎊</h2>
+        </section>
+        <section id="two">
+            <!-- Informations -->
+            <div id="informations">
+                <p align="center">Armus était un projet créé entre amis dans l'espoir de dessiner une "armée" de personnages customisés du jeu "Among Us"; qu'on appelait amogi.</p>
+                <p align="center">Le project a été arrêté en septembre 2023.</p>
+                <div class="spaceline"></div>
+            </div>
+
+            <!-- Achievements -->
+            <div id="achievements">
+                <p align="center">
+                    <img src="achievements/creation.png" height="200" title="Création du projet">
+                    <img src="achievements/members-25.png" height="200" title="25 membres dans l'armée!">
+                    <img src="achievements/certif.png" height="200" title="Projet qualifié d'art par un expert!">
+                    <img src="achievements/lang-fr.png" height="200" title="Ouverture du site!">
+                    <img src="achievements/members-50.png" height="200" title="50 membres dans l'armée!">
+                    <img src="achievements/artists-10.png" height="200" title="10 artistes ont créé des personnages!">
+                    <img src="achievements/members-75.png" height="200" title="75 membres dans l'armée!">
+                    <img src="achievements/commits-100.png" height="200" title="100 commits sur GitHub!">
+                    <img src="achievements/lang-en.png" height="200" title="Traduction en Anglais">
+                    <img src="achievements/members-100.png" height="200" title="100 membres dans l'armée! 🎊">
+                    <img src="achievements/lang-tr.png" height="200" title="Traduction en Turc">
+                    <img src="achievements/artists-20.png" height="200" title="20 artistes ont créé des personnages!">
+                    <img src="achievements/members-150.png" height="200" title="150 membres dans l'armée! 🎊">
+                    <img src="achievements/year-1.png" height="200" title="Le projet a 1 an! 🎊">
+                </p>
+                <div class="spaceline"></div>
+            </div>
+
+            <!-- The army -->
+            <div id="army">
+                <h2>🔪 L'armée de <b class="accentedtext" id="memberstotal">184</b> personnages</h2>
+                <div id="cardscontainer"><a class="card" id="char-abatus" href="pics/abatus.jpeg" target="_blank"><img src="pics/abatus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">abatus</div>
+                            <div class="rank1 cardartist">Nissou 👑</div><span class="carddate">17/10/2022</span>
+                        </div>
+                    </a><a class="card" id="char-abeillus" href="pics/abeillus.jpeg" target="_blank"><img src="pics/abeillus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">abeillus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">12/02/2023</span>
+                        </div>
+                    </a><a class="card" id="char-abigus" href="pics/abigus.jpeg" target="_blank"><img src="pics/abigus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">abigus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">22/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-ahmonzbobus" href="pics/ahmonzbobus.jpeg" target="_blank"><img src="pics/ahmonzbobus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">ahmonzbobus</div>
+                            <div class="cardartist">Ducky duck</div><span class="carddate">08/11/2022</span>
+                        </div>
+                    </a><a class="card" id="char-airmogus" href="pics/airmogus.jpeg" target="_blank"><img src="pics/airmogus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">airmogus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">22/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-alienus" href="pics/alienus.jpeg" target="_blank"><img src="pics/alienus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">alienus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">20/04/2023</span>
+                        </div>
+                    </a><a class="card" id="char-alongus" href="pics/alongus.jpeg" target="_blank"><img src="pics/alongus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">alongus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">21/10/2022</span>
+                        </div>
+                    </a><a class="card" id="char-alvinus" href="pics/alvinus.jpeg" target="_blank"><img src="pics/alvinus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">alvinus</div>
+                            <div class="rank1 cardartist">Kooki 👑</div><span class="carddate">16/09/2023</span>
+                        </div>
+                    </a><a class="card" id="char-amelioratus" href="pics/amelioratus.jpeg" target="_blank"><img src="pics/amelioratus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">amelioratus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">25/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-amoga" href="pics/amoga.jpeg" target="_blank"><img src="pics/amoga.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">amoga</div>
+                            <div class="rank2 cardartist">Chus 💎</div><span class="carddate">21/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-amogus-poli" href="pics/amogus-poli.jpeg" target="_blank"><img src="pics/amogus-poli.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">amogus-poli</div>
+                            <div class="rank2 cardartist">Chus 💎</div><span class="carddate">19/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-amogus" href="pics/amogus.jpeg" target="_blank"><img src="pics/amogus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">amogus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">19/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-amosus" href="pics/amosus.jpeg" target="_blank"><img src="pics/amosus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">amosus</div>
+                            <div class="cardartist">Lili</div><span class="carddate">10/07/2022</span>
+                        </div>
+                    </a><a class="card" id="char-angelus" href="pics/angelus.jpeg" target="_blank"><img src="pics/angelus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">angelus</div>
+                            <div class="rank1 cardartist">Nissou 👑</div><span class="carddate">18/10/2022</span>
+                        </div>
+                    </a><a class="card" id="char-aplatus" href="pics/aplatus.jpeg" target="_blank"><img src="pics/aplatus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">aplatus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">25/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-applus" href="pics/applus.jpeg" target="_blank"><img src="pics/applus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">applus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">28/10/2022</span>
+                        </div>
+                    </a><a class="card" id="char-arabus" href="pics/arabus.jpeg" target="_blank"><img src="pics/arabus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">arabus</div>
+                            <div class="cardartist">ID_CLAS</div><span class="carddate">12/08/2022</span>
+                        </div>
+                    </a><a class="card" id="char-artistus" href="pics/artistus.jpeg" target="_blank"><img src="pics/artistus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">artistus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">26/12/2022</span>
+                        </div>
+                    </a><a class="card" id="char-asmolgus" href="pics/asmolgus.jpeg" target="_blank"><img src="pics/asmolgus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">asmolgus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">22/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-asus" href="pics/asus.jpeg" target="_blank"><img src="pics/asus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">asus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">28/10/2022</span>
+                        </div>
+                    </a><a class="card" id="char-avokadus" href="pics/avokadus.jpeg" target="_blank"><img src="pics/avokadus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">avokadus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">26/12/2022</span>
+                        </div>
+                    </a><a class="card" id="char-babacus" href="pics/babacus.jpeg" target="_blank"><img src="pics/babacus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">babacus</div>
+                            <div class="rank2 cardartist">Aliko 💎</div><span class="carddate">15/08/2022</span>
+                        </div>
+                    </a><a class="card" id="char-bakacutea" href="pics/bakacutea.jpeg" target="_blank"><img src="pics/bakacutea.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">bakacutea</div>
+                            <div class="cardartist">Lili</div><span class="carddate">01/07/2022</span>
+                        </div>
+                    </a><a class="card" id="char-balaius" href="pics/balaius.jpeg" target="_blank"><img src="pics/balaius.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">balaius</div>
+                            <div class="rank1 cardartist">Kooki 👑</div><span class="carddate">04/07/2023</span>
+                        </div>
+                    </a><a class="card" id="char-bananus" href="pics/bananus.jpeg" target="_blank"><img src="pics/bananus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">bananus</div>
+                            <div class="rank2 cardartist">Chus 💎</div><span class="carddate">21/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-bitmojus" href="pics/bitmojus.jpeg" target="_blank"><img src="pics/bitmojus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">bitmojus</div>
+                            <div class="rank1 cardartist">Nissou 👑</div><span class="carddate">18/10/2022</span>
+                        </div>
+                    </a><a class="card" id="char-blackus" href="pics/blackus.jpeg" target="_blank"><img src="pics/blackus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">blackus</div>
+                            <div class="rank2 cardartist">Chus 💎</div><span class="carddate">19/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-blocus" href="pics/blocus.jpeg" target="_blank"><img src="pics/blocus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">blocus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">31/08/2023</span>
+                        </div>
+                    </a><a class="card" id="char-boxus" href="pics/boxus.jpeg" target="_blank"><img src="pics/boxus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">boxus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">31/08/2023</span>
+                        </div>
+                    </a><a class="card" id="char-bushus" href="pics/bushus.jpeg" target="_blank"><img src="pics/bushus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">bushus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">25/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-cactus" href="pics/cactus.jpeg" target="_blank"><img src="pics/cactus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">cactus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">25/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-campus" href="pics/campus.jpeg" target="_blank"><img src="pics/campus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">campus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">26/12/2022</span>
+                        </div>
+                    </a><a class="card" id="char-capturus" href="pics/capturus.jpeg" target="_blank"><img src="pics/capturus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">capturus</div>
+                            <div class="cardartist">Samilogosy</div><span class="carddate">17/10/2022</span>
+                        </div>
+                    </a><a class="card" id="char-carnagus" href="pics/carnagus.jpeg" target="_blank"><img src="pics/carnagus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">carnagus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">04/07/2023</span>
+                        </div>
+                    </a><a class="card" id="char-catus" href="pics/catus.jpeg" target="_blank"><img src="pics/catus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">catus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">26/12/2022</span>
+                        </div>
+                    </a><a class="card" id="char-chadus" href="pics/chadus.jpeg" target="_blank"><img src="pics/chadus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">chadus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">20/04/2023</span>
+                        </div>
+                    </a><a class="card" id="char-chaplinus" href="pics/chaplinus.jpeg" target="_blank"><img src="pics/chaplinus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">chaplinus</div>
+                            <div class="cardartist">Jujudubat7</div><span class="carddate">28/10/2022</span>
+                        </div>
+                    </a><a class="card" id="char-chinus" href="pics/chinus.jpeg" target="_blank"><img src="pics/chinus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">chinus</div>
+                            <div class="rank2 cardartist">Chus 💎</div><span class="carddate">19/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-clockus" href="pics/clockus.jpeg" target="_blank"><img src="pics/clockus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">clockus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">31/08/2023</span>
+                        </div>
+                    </a><a class="card" id="char-cloudus" href="pics/cloudus.jpeg" target="_blank"><img src="pics/cloudus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">cloudus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">17/10/2022</span>
+                        </div>
+                    </a><a class="card" id="char-coca-colus" href="pics/coca-colus.jpeg" target="_blank"><img src="pics/coca-colus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">coca-colus</div>
+                            <div class="rank2 cardartist">Aliko 💎</div><span class="carddate">15/08/2022</span>
+                        </div>
+                    </a><a class="card" id="char-contrairus" href="pics/contrairus.jpeg" target="_blank"><img src="pics/contrairus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">contrairus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">30/12/2022</span>
+                        </div>
+                    </a><a class="card" id="char-cosmonus" href="pics/cosmonus.jpeg" target="_blank"><img src="pics/cosmonus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">cosmonus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">22/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-crashus" href="pics/crashus.jpeg" target="_blank"><img src="pics/crashus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">crashus</div>
+                            <div class="rank1 cardartist">Kooki 👑</div><span class="carddate">12/11/2022</span>
+                        </div>
+                    </a><a class="card" id="char-cuistus" href="pics/cuistus.jpeg" target="_blank"><img src="pics/cuistus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">cuistus</div>
+                            <div class="rank2 cardartist">Chus 💎</div><span class="carddate">21/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-cupidus" href="pics/cupidus.jpeg" target="_blank"><img src="pics/cupidus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">cupidus</div>
+                            <div class="rank1 cardartist">Nissou 👑</div><span class="carddate">18/10/2022</span>
+                        </div>
+                    </a><a class="card" id="char-demonus" href="pics/demonus.jpeg" target="_blank"><img src="pics/demonus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">demonus</div>
+                            <div class="rank2 cardartist">Aliko 💎</div><span class="carddate">10/07/2022</span>
+                        </div>
+                    </a><a class="card" id="char-diamonda" href="pics/diamonda.jpeg" target="_blank"><img src="pics/diamonda.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">diamonda</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">18/10/2022</span>
+                        </div>
+                    </a><a class="card" id="char-distractionus" href="pics/distractionus.jpeg" target="_blank"><img src="pics/distractionus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">distractionus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">20/04/2023</span>
+                        </div>
+                    </a><a class="card" id="char-dora" href="pics/dora.jpeg" target="_blank"><img src="pics/dora.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">dora</div>
+                            <div class="rank2 cardartist">Aliko 💎</div><span class="carddate">15/08/2022</span>
+                        </div>
+                    </a><a class="card" id="char-dreamus" href="pics/dreamus.jpeg" target="_blank"><img src="pics/dreamus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">dreamus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">21/10/2022</span>
+                        </div>
+                    </a><a class="card" id="char-drogueus" href="pics/drogueus.jpeg" target="_blank"><img src="pics/drogueus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">drogueus</div>
+                            <div class="cardartist">Ilian</div><span class="carddate">28/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-eclairus" href="pics/eclairus.jpeg" target="_blank"><img src="pics/eclairus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">eclairus</div>
+                            <div class="rank2 cardartist">Aliko 💎</div><span class="carddate">13/08/2022</span>
+                        </div>
+                    </a><a class="card" id="char-educatus" href="pics/educatus.jpeg" target="_blank"><img src="pics/educatus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">educatus</div>
+                            <div class="rank2 cardartist">Chus 💎</div><span class="carddate">21/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-elcostus" href="pics/elcostus.jpeg" target="_blank"><img src="pics/elcostus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">elcostus</div>
+                            <div class="cardartist">ceriadil30</div><span class="carddate">02/09/2023</span>
+                        </div>
+                    </a><a class="card" id="char-enormongus" href="pics/enormongus.jpeg" target="_blank"><img src="pics/enormongus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">enormongus</div>
+                            <div class="cardartist">Benjaminouille</div><span class="carddate">30/12/2022</span>
+                        </div>
+                    </a><a class="card" id="char-fifus" href="pics/fifus.jpeg" target="_blank"><img src="pics/fifus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">fifus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">05/04/2023</span>
+                        </div>
+                    </a><a class="card" id="char-fishus" href="pics/fishus.jpeg" target="_blank"><img src="pics/fishus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">fishus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">25/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-flippus" href="pics/flippus.jpeg" target="_blank"><img src="pics/flippus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">flippus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">10/08/2022</span>
+                        </div>
+                    </a><a class="card" id="char-flopus" href="pics/flopus.jpeg" target="_blank"><img src="pics/flopus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">flopus</div>
+                            <div class="rank2 cardartist">Aliko 💎</div><span class="carddate">05/04/2023</span>
+                        </div>
+                    </a><a class="card" id="char-fritus" href="pics/fritus.jpeg" target="_blank"><img src="pics/fritus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">fritus</div>
+                            <div class="cardartist">Lili</div><span class="carddate">12/02/2023</span>
+                        </div>
+                    </a><a class="card" id="char-galaxus" href="pics/galaxus.jpeg" target="_blank"><img src="pics/galaxus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">galaxus</div>
+                            <div class="rank2 cardartist">Chus 💎</div><span class="carddate">20/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-gameus" href="pics/gameus.jpeg" target="_blank"><img src="pics/gameus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">gameus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">29/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-generalus" href="pics/generalus.jpeg" target="_blank"><img src="pics/generalus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">generalus</div>
+                            <div class="rank2 cardartist">Chus 💎</div><span class="carddate">21/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-geometrus" href="pics/geometrus.jpeg" target="_blank"><img src="pics/geometrus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">geometrus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">14/08/2022</span>
+                        </div>
+                    </a><a class="card" id="char-glasus" href="pics/glasus.jpeg" target="_blank"><img src="pics/glasus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">glasus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">04/12/2022</span>
+                        </div>
+                    </a><a class="card" id="char-glitchus" href="pics/glitchus.jpeg" target="_blank"><img src="pics/glitchus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">glitchus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">31/08/2023</span>
+                        </div>
+                    </a><a class="card" id="char-goblinus" href="pics/goblinus.jpeg" target="_blank"><img src="pics/goblinus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">goblinus</div>
+                            <div class="rank1 cardartist">Nissou 👑</div><span class="carddate">17/10/2022</span>
+                        </div>
+                    </a><a class="card" id="char-gokus" href="pics/gokus.jpeg" target="_blank"><img src="pics/gokus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">gokus</div>
+                            <div class="rank2 cardartist">Chus 💎</div><span class="carddate">19/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-googlus" href="pics/googlus.jpeg" target="_blank"><img src="pics/googlus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">googlus</div>
+                            <div class="rank1 cardartist">Kooki 👑</div><span class="carddate">04/07/2023</span>
+                        </div>
+                    </a><a class="card" id="char-gourdus" href="pics/gourdus.jpeg" target="_blank"><img src="pics/gourdus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">gourdus</div>
+                            <div class="cardartist">Jiwon</div><span class="carddate">31/12/2022</span>
+                        </div>
+                    </a><a class="card" id="char-grogus" href="pics/grogus.jpeg" target="_blank"><img src="pics/grogus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">grogus</div>
+                            <div class="rank2 cardartist">Aliko 💎</div><span class="carddate">15/08/2022</span>
+                        </div>
+                    </a><a class="card" id="char-hakimus" href="pics/hakimus.jpeg" target="_blank"><img src="pics/hakimus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">hakimus</div>
+                            <div class="rank2 cardartist">Aliko 💎</div><span class="carddate">26/12/2022</span>
+                        </div>
+                    </a><a class="card" id="char-hamburgus" href="pics/hamburgus.jpeg" target="_blank"><img src="pics/hamburgus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">hamburgus</div>
+                            <div class="cardartist">Apyzzelos</div><span class="carddate">11/07/2022</span>
+                        </div>
+                    </a><a class="card" id="char-helicoptus" href="pics/helicoptus.jpeg" target="_blank"><img src="pics/helicoptus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">helicoptus</div>
+                            <div class="cardartist">Camicase</div><span class="carddate">29/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-icecreamus" href="pics/icecreamus.jpeg" target="_blank"><img src="pics/icecreamus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">icecreamus</div>
+                            <div class="rank2 cardartist">Aliko 💎</div><span class="carddate">12/08/2022</span>
+                        </div>
+                    </a><a class="card" id="char-impasta" href="pics/impasta.jpeg" target="_blank"><img src="pics/impasta.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">impasta</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">13/02/2023</span>
+                        </div>
+                    </a><a class="card" id="char-impostor" href="pics/impostor.jpeg" target="_blank"><img src="pics/impostor.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">impostor</div>
+                            <div class="rank2 cardartist">Chus 💎</div><span class="carddate">20/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-infirmus" href="pics/infirmus.jpeg" target="_blank"><img src="pics/infirmus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">infirmus</div>
+                            <div class="rank2 cardartist">Chus 💎</div><span class="carddate">21/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-insultus" href="pics/insultus.jpeg" target="_blank"><img src="pics/insultus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">insultus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">20/04/2023</span>
+                        </div>
+                    </a><a class="card" id="char-intellus" href="pics/intellus.jpeg" target="_blank"><img src="pics/intellus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">intellus</div>
+                            <div class="rank2 cardartist">Aliko 💎</div><span class="carddate">15/08/2022</span>
+                        </div>
+                    </a><a class="card" id="char-invisiblus" href="pics/invisiblus.jpeg" target="_blank"><img src="pics/invisiblus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">invisiblus</div>
+                            <div class="rank1 cardartist">Nissou 👑</div><span class="carddate">17/10/2022</span>
+                        </div>
+                    </a><a class="card" id="char-japnessa" href="pics/japnessa.jpeg" target="_blank"><img src="pics/japnessa.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">japnessa</div>
+                            <div class="rank2 cardartist">Aliko 💎</div><span class="carddate">29/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-kebabus" href="pics/kebabus.jpeg" target="_blank"><img src="pics/kebabus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">kebabus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">28/12/2022</span>
+                        </div>
+                    </a><a class="card" id="char-killus" href="pics/killus.jpeg" target="_blank"><img src="pics/killus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">killus</div>
+                            <div class="cardartist">Ilian</div><span class="carddate">28/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-kingus" href="pics/kingus.jpeg" target="_blank"><img src="pics/kingus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">kingus</div>
+                            <div class="rank1 cardartist">Kooki 👑</div><span class="carddate">04/07/2023</span>
+                        </div>
+                    </a><a class="card" id="char-labus" href="pics/labus.jpeg" target="_blank"><img src="pics/labus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">labus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">26/12/2022</span>
+                        </div>
+                    </a><a class="card" id="char-laserus" href="pics/laserus.jpeg" target="_blank"><img src="pics/laserus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">laserus</div>
+                            <div class="rank2 cardartist">Chus 💎</div><span class="carddate">19/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-livrus" href="pics/livrus.jpeg" target="_blank"><img src="pics/livrus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">livrus</div>
+                            <div class="rank2 cardartist">Chus 💎</div><span class="carddate">19/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-locomotivus" href="pics/locomotivus.jpeg" target="_blank"><img src="pics/locomotivus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">locomotivus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">04/07/2023</span>
+                        </div>
+                    </a><a class="card" id="char-louivitus" href="pics/louivitus.jpeg" target="_blank"><img src="pics/louivitus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">louivitus</div>
+                            <div class="cardartist">ceriban176</div><span class="carddate">28/12/2022</span>
+                        </div>
+                    </a><a class="card" id="char-luffus" href="pics/luffus.jpeg" target="_blank"><img src="pics/luffus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">luffus</div>
+                            <div class="cardartist">EVIL UO</div><span class="carddate">28/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-luigius" href="pics/luigius.jpeg" target="_blank"><img src="pics/luigius.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">luigius</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">31/08/2023</span>
+                        </div>
+                    </a><a class="card" id="char-lumogus" href="pics/lumogus.jpeg" target="_blank"><img src="pics/lumogus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">lumogus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">05/04/2023</span>
+                        </div>
+                    </a><a class="card" id="char-maigrus" href="pics/maigrus.jpeg" target="_blank"><img src="pics/maigrus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">maigrus</div>
+                            <div class="cardartist">Lili</div><span class="carddate">12/02/2023</span>
+                        </div>
+                    </a><a class="card" id="char-maladus" href="pics/maladus.jpeg" target="_blank"><img src="pics/maladus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">maladus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">31/08/2023</span>
+                        </div>
+                    </a><a class="card" id="char-marius" href="pics/marius.jpeg" target="_blank"><img src="pics/marius.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">marius</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">30/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-maya" href="pics/maya.jpeg" target="_blank"><img src="pics/maya.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">maya</div>
+                            <div class="cardartist">Goku</div><span class="carddate">30/10/2022</span>
+                        </div>
+                    </a><a class="card" id="char-mbappus" href="pics/mbappus.jpeg" target="_blank"><img src="pics/mbappus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">mbappus</div>
+                            <div class="rank2 cardartist">Aliko 💎</div><span class="carddate">26/12/2022</span>
+                        </div>
+                    </a><a class="card" id="char-mcdus" href="pics/mcdus.jpeg" target="_blank"><img src="pics/mcdus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">mcdus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">31/08/2023</span>
+                        </div>
+                    </a><a class="card" id="char-messius" href="pics/messius.jpeg" target="_blank"><img src="pics/messius.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">messius</div>
+                            <div class="cardartist">ceriadil30</div><span class="carddate">02/09/2023</span>
+                        </div>
+                    </a><a class="card" id="char-michael-jacksus" href="pics/michael-jacksus.jpeg" target="_blank"><img src="pics/michael-jacksus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">michael-jacksus</div>
+                            <div class="rank2 cardartist">Chus 💎</div><span class="carddate">21/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-mickus" href="pics/mickus.jpeg" target="_blank"><img src="pics/mickus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">mickus</div>
+                            <div class="rank1 cardartist">Kooki 👑</div><span class="carddate">04/07/2023</span>
+                        </div>
+                    </a><a class="card" id="char-minecraftus" href="pics/minecraftus.jpeg" target="_blank"><img src="pics/minecraftus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">minecraftus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">05/04/2023</span>
+                        </div>
+                    </a><a class="card" id="char-monstrus" href="pics/monstrus.jpeg" target="_blank"><img src="pics/monstrus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">monstrus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">05/04/2023</span>
+                        </div>
+                    </a><a class="card" id="char-mukbangus" href="pics/mukbangus.jpeg" target="_blank"><img src="pics/mukbangus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">mukbangus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">20/04/2023</span>
+                        </div>
+                    </a><a class="card" id="char-musclus" href="pics/musclus.jpeg" target="_blank"><img src="pics/musclus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">musclus</div>
+                            <div class="rank2 cardartist">Chus 💎</div><span class="carddate">19/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-mysterus" href="pics/mysterus.jpeg" target="_blank"><img src="pics/mysterus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">mysterus</div>
+                            <div class="cardartist">Ilian</div><span class="carddate">28/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-narutus" href="pics/narutus.jpeg" target="_blank"><img src="pics/narutus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">narutus</div>
+                            <div class="cardartist">Ilian</div><span class="carddate">28/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-naturus" href="pics/naturus.jpeg" target="_blank"><img src="pics/naturus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">naturus</div>
+                            <div class="rank2 cardartist">Chus 💎</div><span class="carddate">19/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-nerdus" href="pics/nerdus.jpeg" target="_blank"><img src="pics/nerdus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">nerdus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">31/08/2023</span>
+                        </div>
+                    </a><a class="card" id="char-netflixus" href="pics/netflixus.jpeg" target="_blank"><img src="pics/netflixus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">netflixus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">31/08/2023</span>
+                        </div>
+                    </a><a class="card" id="char-ninjsus" href="pics/ninjsus.jpeg" target="_blank"><img src="pics/ninjsus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">ninjsus</div>
+                            <div class="rank2 cardartist">Chus 💎</div><span class="carddate">10/07/2022</span>
+                        </div>
+                    </a><a class="card" id="char-nutellus" href="pics/nutellus.jpeg" target="_blank"><img src="pics/nutellus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">nutellus</div>
+                            <div class="rank2 cardartist">Aliko 💎</div><span class="carddate">10/07/2022</span>
+                        </div>
+                    </a><a class="card" id="char-nymarus" href="pics/nymarus.jpeg" target="_blank"><img src="pics/nymarus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">nymarus</div>
+                            <div class="cardartist">EVIL UO</div><span class="carddate">28/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-omagus" href="pics/omagus.jpeg" target="_blank"><img src="pics/omagus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">omagus</div>
+                            <div class="cardartist">EL MALADO</div><span class="carddate">04/07/2023</span>
+                        </div>
+                    </a><a class="card" id="char-oranjus" href="pics/oranjus.jpeg" target="_blank"><img src="pics/oranjus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">oranjus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">26/12/2022</span>
+                        </div>
+                    </a><a class="card" id="char-pacmanus" href="pics/pacmanus.jpeg" target="_blank"><img src="pics/pacmanus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">pacmanus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">28/10/2022</span>
+                        </div>
+                    </a><a class="card" id="char-paintus" href="pics/paintus.jpeg" target="_blank"><img src="pics/paintus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">paintus</div>
+                            <div class="cardartist">Abat</div><span class="carddate">08/11/2022</span>
+                        </div>
+                    </a><a class="card" id="char-panterus" href="pics/panterus.jpeg" target="_blank"><img src="pics/panterus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">panterus</div>
+                            <div class="rank1 cardartist">Nissou 👑</div><span class="carddate">17/10/2022</span>
+                        </div>
+                    </a><a class="card" id="char-papillus" href="pics/papillus.jpeg" target="_blank"><img src="pics/papillus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">papillus</div>
+                            <div class="rank1 cardartist">Nissou 👑</div><span class="carddate">18/10/2022</span>
+                        </div>
+                    </a><a class="card" id="char-parisus" href="pics/parisus.jpeg" target="_blank"><img src="pics/parisus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">parisus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">19/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-peppus" href="pics/peppus.jpeg" target="_blank"><img src="pics/peppus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">peppus</div>
+                            <div class="rank2 cardartist">Aliko 💎</div><span class="carddate">29/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-perdus" href="pics/perdus.jpeg" target="_blank"><img src="pics/perdus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">perdus</div>
+                            <div class="rank2 cardartist">Chus 💎</div><span class="carddate">19/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-pikachus" href="pics/pikachus.jpeg" target="_blank"><img src="pics/pikachus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">pikachus</div>
+                            <div class="cardartist">Petiteprincesse</div><span class="carddate">15/08/2022</span>
+                        </div>
+                    </a><a class="card" id="char-piratus" href="pics/piratus.jpeg" target="_blank"><img src="pics/piratus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">piratus</div>
+                            <div class="rank2 cardartist">Chus 💎</div><span class="carddate">19/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-pokebollus" href="pics/pokebollus.jpeg" target="_blank"><img src="pics/pokebollus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">pokebollus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">10/07/2022</span>
+                        </div>
+                    </a><a class="card" id="char-polisus" href="pics/polisus.jpeg" target="_blank"><img src="pics/polisus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">polisus</div>
+                            <div class="cardartist">Lili</div><span class="carddate">12/02/2023</span>
+                        </div>
+                    </a><a class="card" id="char-poopus" href="pics/poopus.jpeg" target="_blank"><img src="pics/poopus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">poopus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">25/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-potatus" href="pics/potatus.jpeg" target="_blank"><img src="pics/potatus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">potatus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">04/12/2022</span>
+                        </div>
+                    </a><a class="card" id="char-poulus" href="pics/poulus.jpeg" target="_blank"><img src="pics/poulus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">poulus</div>
+                            <div class="rank2 cardartist">Chus 💎</div><span class="carddate">20/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-questionus" href="pics/questionus.jpeg" target="_blank"><img src="pics/questionus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">questionus</div>
+                            <div class="rank1 cardartist">Kooki 👑</div><span class="carddate">12/11/2022</span>
+                        </div>
+                    </a><a class="card" id="char-racaillus" href="pics/racaillus.jpeg" target="_blank"><img src="pics/racaillus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">racaillus</div>
+                            <div class="rank2 cardartist">Aliko 💎</div><span class="carddate">29/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-rainbowus" href="pics/rainbowus.jpeg" target="_blank"><img src="pics/rainbowus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">rainbowus</div>
+                            <div class="cardartist">Petiteprincesse</div><span class="carddate">10/07/2022</span>
+                        </div>
+                    </a><a class="card" id="char-recepus" href="pics/recepus.jpeg" target="_blank"><img src="pics/recepus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">recepus</div>
+                            <div class="cardartist">Samilogosy</div><span class="carddate">26/02/2023</span>
+                        </div>
+                    </a><a class="card" id="char-richus" href="pics/richus.jpeg" target="_blank"><img src="pics/richus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">richus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">31/08/2023</span>
+                        </div>
+                    </a><a class="card" id="char-rickus" href="pics/rickus.jpeg" target="_blank" onclick="rick()"><img src="pics/rickus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">rickus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">24/12/2022</span>
+                        </div>
+                    </a><a class="card" id="char-robloxus" href="pics/robloxus.jpeg" target="_blank"><img src="pics/robloxus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">robloxus</div>
+                            <div class="rank2 cardartist">Aliko 💎</div><span class="carddate">28/12/2022</span>
+                        </div>
+                    </a><a class="card" id="char-robotus" href="pics/robotus.jpeg" target="_blank"><img src="pics/robotus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">robotus</div>
+                            <div class="cardartist">Ilian</div><span class="carddate">28/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-rockus" href="pics/rockus.jpeg" target="_blank"><img src="pics/rockus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">rockus</div>
+                            <div class="rank2 cardartist">Aliko 💎</div><span class="carddate">15/08/2022</span>
+                        </div>
+                    </a><a class="card" id="char-roitus" href="pics/roitus.jpeg" target="_blank"><img src="pics/roitus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">roitus</div>
+                            <div class="cardartist">ceriban176</div><span class="carddate">16/10/2022</span>
+                        </div>
+                    </a><a class="card" id="char-seinsus" href="pics/seinsus.jpeg" target="_blank"><img src="pics/seinsus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">seinsus</div>
+                            <div class="rank2 cardartist">Chus 💎</div><span class="carddate">19/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-shapeshiftus" href="pics/shapeshiftus.jpeg" target="_blank"><img src="pics/shapeshiftus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">shapeshiftus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">25/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-shrekus" href="pics/shrekus.jpeg" target="_blank"><img src="pics/shrekus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">shrekus</div>
+                            <div class="cardartist">Samilogosy</div><span class="carddate">01/08/2022</span>
+                        </div>
+                    </a><a class="card" id="char-sleepus" href="pics/sleepus.jpeg" target="_blank"><img src="pics/sleepus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">sleepus</div>
+                            <div class="cardartist">Camicase</div><span class="carddate">28/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-sofianus" href="pics/sofianus.jpeg" target="_blank"><img src="pics/sofianus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">sofianus</div>
+                            <div class="cardartist">Ilian</div><span class="carddate">28/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-spidermanus" href="pics/spidermanus.jpeg" target="_blank"><img src="pics/spidermanus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">spidermanus</div>
+                            <div class="cardartist">Ilian</div><span class="carddate">28/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-stevus" href="pics/stevus.jpeg" target="_blank"><img src="pics/stevus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">stevus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">30/12/2022</span>
+                        </div>
+                    </a><a class="card" id="char-stickmus" href="pics/stickmus.jpeg" target="_blank"><img src="pics/stickmus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">stickmus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">30/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-sugoma" href="pics/sugoma.jpeg" target="_blank"><img src="pics/sugoma.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">sugoma</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">21/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-superherus" href="pics/superherus.jpeg" target="_blank"><img src="pics/superherus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">superherus</div>
+                            <div class="rank1 cardartist">Nissou 👑</div><span class="carddate">18/10/2022</span>
+                        </div>
+                    </a><a class="card" id="char-switchus" href="pics/switchus.jpeg" target="_blank"><img src="pics/switchus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">switchus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">31/08/2023</span>
+                        </div>
+                    </a><a class="card" id="char-tacus" href="pics/tacus.jpeg" target="_blank"><img src="pics/tacus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">tacus</div>
+                            <div class="cardartist">GaimeLéZuitres</div><span class="carddate">13/02/2023</span>
+                        </div>
+                    </a><a class="card" id="char-talecramptus" href="pics/talecramptus.jpeg" target="_blank"><img src="pics/talecramptus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">talecramptus</div>
+                            <div class="rank1 cardartist">Kooki 👑</div><span class="carddate">04/07/2023</span>
+                        </div>
+                    </a><a class="card" id="char-tankus" href="pics/tankus.jpeg" target="_blank"><img src="pics/tankus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">tankus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">31/08/2023</span>
+                        </div>
+                    </a><a class="card" id="char-tchoupius" href="pics/tchoupius.jpeg" target="_blank"><img src="pics/tchoupius.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">tchoupius</div>
+                            <div class="rank2 cardartist">Aliko 💎</div><span class="carddate">29/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-tennisus" href="pics/tennisus.jpeg" target="_blank"><img src="pics/tennisus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">tennisus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">31/08/2023</span>
+                        </div>
+                    </a><a class="card" id="char-termius" href="pics/termius.jpeg" target="_blank"><img src="pics/termius.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">termius</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">04/07/2023</span>
+                        </div>
+                    </a><a class="card" id="char-tetrus" href="pics/tetrus.jpeg" target="_blank"><img src="pics/tetrus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">tetrus</div>
+                            <div class="rank1 cardartist">Kooki 👑</div><span class="carddate">05/04/2023</span>
+                        </div>
+                    </a><a class="card" id="char-the-creatorus" href="pics/the-creatorus.jpeg" target="_blank"><img src="pics/the-creatorus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">the-creatorus</div>
+                            <div class="rank2 cardartist">Chus 💎</div><span class="carddate">20/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-theamosus78" href="pics/theamosus78.jpeg" target="_blank"><img src="pics/theamosus78.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">theamosus78</div>
+                            <div class="cardartist">K.Y</div><span class="carddate">10/08/2022</span>
+                        </div>
+                    </a><a class="card" id="char-thugus" href="pics/thugus.jpeg" target="_blank"><img src="pics/thugus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">thugus</div>
+                            <div class="rank2 cardartist">Chus 💎</div><span class="carddate">20/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-toadus" href="pics/toadus.jpeg" target="_blank"><img src="pics/toadus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">toadus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">31/08/2023</span>
+                        </div>
+                    </a><a class="card" id="char-toastus" href="pics/toastus.jpeg" target="_blank"><img src="pics/toastus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">toastus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">25/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-toilettus" href="pics/toilettus.jpeg" target="_blank"><img src="pics/toilettus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">toilettus</div>
+                            <div class="rank1 cardartist">Kooki 👑</div><span class="carddate">04/07/2023</span>
+                        </div>
+                    </a><a class="card" id="char-tornadus" href="pics/tornadus.jpeg" target="_blank"><img src="pics/tornadus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">tornadus</div>
+                            <div class="rank2 cardartist">Aliko 💎</div><span class="carddate">13/08/2023</span>
+                        </div>
+                    </a><a class="card" id="char-t-rexus" href="pics/t-rexus.jpeg" target="_blank"><img src="pics/t-rexus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">t-rexus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">31/08/2023</span>
+                        </div>
+                    </a><a class="card" id="char-trollus" href="pics/trollus.jpeg" target="_blank"><img src="pics/trollus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">trollus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">30/12/2022</span>
+                        </div>
+                    </a><a class="card" id="char-turkus" href="pics/turkus.jpeg" target="_blank"><img src="pics/turkus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">turkus</div>
+                            <div class="cardartist">Lili</div><span class="carddate">15/08/2022</span>
+                        </div>
+                    </a><a class="card" id="char-univerus" href="pics/univerus.jpeg" target="_blank"><img src="pics/univerus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">univerus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">31/08/2023</span>
+                        </div>
+                    </a><a class="card" id="char-uranus" href="pics/uranus.jpeg" target="_blank"><img src="pics/uranus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">uranus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">29/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-vampirus" href="pics/vampirus.jpeg" target="_blank"><img src="pics/vampirus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">vampirus</div>
+                            <div class="rank2 cardartist">Chus 💎</div><span class="carddate">19/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-vegetus" href="pics/vegetus.jpeg" target="_blank"><img src="pics/vegetus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">vegetus</div>
+                            <div class="cardartist">Ilian</div><span class="carddate">28/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-venomus" href="pics/venomus.jpeg" target="_blank"><img src="pics/venomus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">venomus</div>
+                            <div class="rank1 cardartist">Kooki 👑</div><span class="carddate">04/07/2023</span>
+                        </div>
+                    </a><a class="card" id="char-villajus" href="pics/villajus.jpeg" target="_blank"><img src="pics/villajus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">villajus</div>
+                            <div class="cardartist">Benjaminouille</div><span class="carddate">30/12/2022</span>
+                        </div>
+                    </a><a class="card" id="char-virus" href="pics/virus.jpeg" target="_blank"><img src="pics/virus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">virus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">22/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-voitus" href="pics/voitus.jpeg" target="_blank"><img src="pics/voitus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">voitus</div>
+                            <div class="rank1 cardartist">Nissou 👑</div><span class="carddate">21/10/2022</span>
+                        </div>
+                    </a><a class="card" id="char-volus" href="pics/volus.jpeg" target="_blank"><img src="pics/volus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">volus</div>
+                            <div class="rank1 cardartist">Kooki 👑</div><span class="carddate">04/07/2023</span>
+                        </div>
+                    </a><a class="card" id="char-waterus" href="pics/waterus.jpeg" target="_blank"><img src="pics/waterus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">waterus</div>
+                            <div class="rank4 cardartist">Apix 🍀</div><span class="carddate">22/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-werbrus" href="pics/werbrus.jpeg" target="_blank"><img src="pics/werbrus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">werbrus</div>
+                            <div class="rank1 cardartist">Nissou 👑</div><span class="carddate">17/10/2022</span>
+                        </div>
+                    </a><a class="card" id="char-wizardus" href="pics/wizardus.jpeg" target="_blank"><img src="pics/wizardus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">wizardus</div>
+                            <div class="rank3 cardartist">XNinja 🌹</div><span class="carddate">25/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-xdsus" href="pics/xdsus.jpeg" target="_blank"><img src="pics/xdsus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">xdsus</div>
+                            <div class="rank2 cardartist">Aliko 💎</div><span class="carddate">29/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-yoyosus" href="pics/yoyosus.jpeg" target="_blank"><img src="pics/yoyosus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">yoyosus</div>
+                            <div class="rank2 cardartist">Aliko 💎</div><span class="carddate">29/06/2022</span>
+                        </div>
+                    </a><a class="card" id="char-zorus" href="pics/zorus.jpeg" target="_blank"><img src="pics/zorus.jpeg" height="1101" width="689">
+                        <div class="text">
+                            <div class="cardcharactername">zorus</div>
+                            <div class="cardartist">Goku</div><span class="carddate">12/11/2022</span>
+                        </div>
+                    </a></div>
+                <div class="spaceline"></div>
+            </div>
+
+            <!-- Thanks -->
+            <div id="thanks">
+                <h2>🌟 Remerciements</h2>
+                <p>Créateurs originaux d'Armus: <b>Apix</b> et <b>Chus</b>.</p>
+                <details>
+                    <summary>Merci aux <b class="accentedtext" id="numberofartists">25</b> artistes qui ont créé des personnages pour Armus.</summary>
+                    <ul class="remerciements">
+                        <li><b class="rank4">Apix 🍀</b> : <b class="rank4">41</b> personnages (<a href="#char-abigus"><code>abigus</code></a>, <a href="#char-airmogus"><code>airmogus</code></a>, <a href="#char-alongus"><code>alongus</code></a>, <a href="#char-amelioratus"><code>amelioratus</code></a>, <a href="#char-amogus"><code>amogus</code></a>, <a href="#char-aplatus"><code>aplatus</code></a>, <a href="#char-artistus"><code>artistus</code></a>, <a href="#char-asmolgus"><code>asmolgus</code></a>, <a href="#char-avokadus"><code>avokadus</code></a>, <a href="#char-boxus"><code>boxus</code></a>, <a href="#char-bushus"><code>bushus</code></a>, <a href="#char-cactus"><code>cactus</code></a>, <a href="#char-campus"><code>campus</code></a>, <a href="#char-catus"><code>catus</code></a>, <a href="#char-chadus"><code>chadus</code></a>, <a href="#char-clockus"><code>clockus</code></a>, <a href="#char-cloudus"><code>cloudus</code></a>, <a href="#char-cosmonus"><code>cosmonus</code></a>, <a href="#char-dreamus"><code>dreamus</code></a>, <a href="#char-fishus"><code>fishus</code></a>, <a href="#char-flippus"><code>flippus</code></a>, <a href="#char-geometrus"><code>geometrus</code></a>, <a href="#char-glasus"><code>glasus</code></a>, <a href="#char-impasta"><code>impasta</code></a>, <a href="#char-insultus"><code>insultus</code></a>, <a href="#char-labus"><code>labus</code></a>, <a href="#char-lumogus"><code>lumogus</code></a>, <a href="#char-minecraftus"><code>minecraftus</code></a>, <a href="#char-nerdus"><code>nerdus</code></a>, <a href="#char-oranjus"><code>oranjus</code></a>, <a href="#char-parisus"><code>parisus</code></a>, <a href="#char-poopus"><code>poopus</code></a>, <a href="#char-potatus"><code>potatus</code></a>, <a href="#char-shapeshiftus"><code>shapeshiftus</code></a>, <a href="#char-sugoma"><code>sugoma</code></a>, <a href="#char-switchus"><code>switchus</code></a>, <a href="#char-tankus"><code>tankus</code></a>, <a href="#char-termius"><code>termius</code></a>, <a href="#char-toastus"><code>toastus</code></a>, <a href="#char-virus"><code>virus</code></a>, <a href="#char-waterus"><code>waterus</code></a>)</li>
+                        <li><b class="rank2">Chus 💎</b> : <b class="rank2">25</b> personnages (<a href="#char-amoga"><code>amoga</code></a>, <a href="#char-amogus-poli"><code>amogus-poli</code></a>, <a href="#char-bananus"><code>bananus</code></a>, <a href="#char-blackus"><code>blackus</code></a>, <a href="#char-chinus"><code>chinus</code></a>, <a href="#char-cuistus"><code>cuistus</code></a>, <a href="#char-educatus"><code>educatus</code></a>, <a href="#char-galaxus"><code>galaxus</code></a>, <a href="#char-generalus"><code>generalus</code></a>, <a href="#char-gokus"><code>gokus</code></a>, <a href="#char-impostor"><code>impostor</code></a>, <a href="#char-infirmus"><code>infirmus</code></a>, <a href="#char-laserus"><code>laserus</code></a>, <a href="#char-livrus"><code>livrus</code></a>, <a href="#char-michael-jacksus"><code>michael-jacksus</code></a>, <a href="#char-musclus"><code>musclus</code></a>, <a href="#char-naturus"><code>naturus</code></a>, <a href="#char-ninjsus"><code>ninjsus</code></a>, <a href="#char-perdus"><code>perdus</code></a>, <a href="#char-piratus"><code>piratus</code></a>, <a href="#char-poulus"><code>poulus</code></a>, <a href="#char-seinsus"><code>seinsus</code></a>, <a href="#char-the-creatorus"><code>the-creatorus</code></a>, <a href="#char-thugus"><code>thugus</code></a>, <a href="#char-vampirus"><code>vampirus</code></a>)</li>
+                        <li><b class="rank3">XNinja 🌹</b> : <b class="rank3">34</b> personnages (<a href="#char-abeillus"><code>abeillus</code></a>, <a href="#char-alienus"><code>alienus</code></a>, <a href="#char-applus"><code>applus</code></a>, <a href="#char-asus"><code>asus</code></a>, <a href="#char-blocus"><code>blocus</code></a>, <a href="#char-carnagus"><code>carnagus</code></a>, <a href="#char-contrairus"><code>contrairus</code></a>, <a href="#char-diamonda"><code>diamonda</code></a>, <a href="#char-distractionus"><code>distractionus</code></a>, <a href="#char-fifus"><code>fifus</code></a>, <a href="#char-gameus"><code>gameus</code></a>, <a href="#char-glitchus"><code>glitchus</code></a>, <a href="#char-kebabus"><code>kebabus</code></a>, <a href="#char-locomotivus"><code>locomotivus</code></a>, <a href="#char-luigius"><code>luigius</code></a>, <a href="#char-maladus"><code>maladus</code></a>, <a href="#char-marius"><code>marius</code></a>, <a href="#char-mcdus"><code>mcdus</code></a>, <a href="#char-monstrus"><code>monstrus</code></a>, <a href="#char-mukbangus"><code>mukbangus</code></a>, <a href="#char-netflixus"><code>netflixus</code></a>, <a href="#char-pacmanus"><code>pacmanus</code></a>, <a href="#char-pokebollus"><code>pokebollus</code></a>, <a href="#char-richus"><code>richus</code></a>, <a href="#char-rickus"><code>rickus</code></a>, <a href="#char-stevus"><code>stevus</code></a>, <a href="#char-stickmus"><code>stickmus</code></a>, <a href="#char-tennisus"><code>tennisus</code></a>, <a href="#char-toadus"><code>toadus</code></a>, <a href="#char-t-rexus"><code>t-rexus</code></a>, <a href="#char-trollus"><code>trollus</code></a>, <a href="#char-univerus"><code>univerus</code></a>, <a href="#char-uranus"><code>uranus</code></a>, <a href="#char-wizardus"><code>wizardus</code></a>)</li>
+                        <li><b>Ilian</b> : <b class="rank0">8</b> personnages (<a href="#char-drogueus"><code>drogueus</code></a>, <a href="#char-killus"><code>killus</code></a>, <a href="#char-mysterus"><code>mysterus</code></a>, <a href="#char-narutus"><code>narutus</code></a>, <a href="#char-robotus"><code>robotus</code></a>, <a href="#char-sofianus"><code>sofianus</code></a>, <a href="#char-spidermanus"><code>spidermanus</code></a>, <a href="#char-vegetus"><code>vegetus</code></a>)</li>
+                        <li><b>Jujudubat7</b> : <b class="rank0">1</b> personnage (<a href="#char-chaplinus"><code>chaplinus</code></a>)</li>
+                        <li><b>EVIL UO</b> : <b class="rank0">2</b> personnages (<a href="#char-luffus"><code>luffus</code></a>, <a href="#char-nymarus"><code>nymarus</code></a>)</li>
+                        <li><b>Camicase</b> : <b class="rank0">2</b> personnages (<a href="#char-helicoptus"><code>helicoptus</code></a>, <a href="#char-sleepus"><code>sleepus</code></a>)</li>
+                        <li><b class="rank2">Aliko 💎</b> : <b class="rank2">21</b> personnages (<a href="#char-babacus"><code>babacus</code></a>, <a href="#char-coca-colus"><code>coca-colus</code></a>, <a href="#char-demonus"><code>demonus</code></a>, <a href="#char-dora"><code>dora</code></a>, <a href="#char-eclairus"><code>eclairus</code></a>, <a href="#char-flopus"><code>flopus</code></a>, <a href="#char-grogus"><code>grogus</code></a>, <a href="#char-hakimus"><code>hakimus</code></a>, <a href="#char-icecreamus"><code>icecreamus</code></a>, <a href="#char-intellus"><code>intellus</code></a>, <a href="#char-japnessa"><code>japnessa</code></a>, <a href="#char-mbappus"><code>mbappus</code></a>, <a href="#char-nutellus"><code>nutellus</code></a>, <a href="#char-peppus"><code>peppus</code></a>, <a href="#char-racaillus"><code>racaillus</code></a>, <a href="#char-robloxus"><code>robloxus</code></a>, <a href="#char-rockus"><code>rockus</code></a>, <a href="#char-tchoupius"><code>tchoupius</code></a>, <a href="#char-tornadus"><code>tornadus</code></a>, <a href="#char-xdsus"><code>xdsus</code></a>, <a href="#char-yoyosus"><code>yoyosus</code></a>)</li>
+                        <li><b>Lili</b> : <b class="rank0">6</b> personnages (<a href="#char-amosus"><code>amosus</code></a>, <a href="#char-bakacutea"><code>bakacutea</code></a>, <a href="#char-fritus"><code>fritus</code></a>, <a href="#char-maigrus"><code>maigrus</code></a>, <a href="#char-polisus"><code>polisus</code></a>, <a href="#char-turkus"><code>turkus</code></a>)</li>
+                        <li><b>Petiteprincesse</b> : <b class="rank0">2</b> personnages (<a href="#char-pikachus"><code>pikachus</code></a>, <a href="#char-rainbowus"><code>rainbowus</code></a>)</li>
+                        <li><b>Apyzzelos</b> : <b class="rank0">1</b> personnage (<a href="#char-hamburgus"><code>hamburgus</code></a>)</li>
+                        <li><b>Samilogosy</b> : <b class="rank0">3</b> personnages (<a href="#char-capturus"><code>capturus</code></a>, <a href="#char-recepus"><code>recepus</code></a>, <a href="#char-shrekus"><code>shrekus</code></a>)</li>
+                        <li><b>K.Y</b> : <b class="rank0">1</b> personnage (<a href="#char-theamosus78"><code>theamosus78</code></a>)</li>
+                        <li><b>ID_CLAS</b> : <b class="rank0">1</b> personnage (<a href="#char-arabus"><code>arabus</code></a>)</li>
+                        <li><b>ceriban176</b> : <b class="rank0">2</b> personnages (<a href="#char-louivitus"><code>louivitus</code></a>, <a href="#char-roitus"><code>roitus</code></a>)</li>
+                        <li><b class="rank1">Nissou 👑</b> : <b class="rank1">11</b> personnages (<a href="#char-abatus"><code>abatus</code></a>, <a href="#char-angelus"><code>angelus</code></a>, <a href="#char-bitmojus"><code>bitmojus</code></a>, <a href="#char-cupidus"><code>cupidus</code></a>, <a href="#char-goblinus"><code>goblinus</code></a>, <a href="#char-invisiblus"><code>invisiblus</code></a>, <a href="#char-panterus"><code>panterus</code></a>, <a href="#char-papillus"><code>papillus</code></a>, <a href="#char-superherus"><code>superherus</code></a>, <a href="#char-voitus"><code>voitus</code></a>, <a href="#char-werbrus"><code>werbrus</code></a>)</li>
+                        <li><b>Goku</b> : <b class="rank0">2</b> personnages (<a href="#char-maya"><code>maya</code></a>, <a href="#char-zorus"><code>zorus</code></a>)</li>
+                        <li><b>Abat</b> : <b class="rank0">1</b> personnage (<a href="#char-paintus"><code>paintus</code></a>)</li>
+                        <li><b>Ducky duck</b> : <b class="rank0">1</b> personnage (<a href="#char-ahmonzbobus"><code>ahmonzbobus</code></a>)</li>
+                        <li><b class="rank1">Kooki 👑</b> : <b class="rank1">12</b> personnages (<a href="#char-alvinus"><code>alvinus</code></a>, <a href="#char-balaius"><code>balaius</code></a>, <a href="#char-crashus"><code>crashus</code></a>, <a href="#char-googlus"><code>googlus</code></a>, <a href="#char-kingus"><code>kingus</code></a>, <a href="#char-mickus"><code>mickus</code></a>, <a href="#char-questionus"><code>questionus</code></a>, <a href="#char-talecramptus"><code>talecramptus</code></a>, <a href="#char-tetrus"><code>tetrus</code></a>, <a href="#char-toilettus"><code>toilettus</code></a>, <a href="#char-venomus"><code>venomus</code></a>, <a href="#char-volus"><code>volus</code></a>)</li>
+                        <li><b>Benjaminouille</b> : <b class="rank0">2</b> personnages (<a href="#char-enormongus"><code>enormongus</code></a>, <a href="#char-villajus"><code>villajus</code></a>)</li>
+                        <li><b>Jiwon</b> : <b class="rank0">1</b> personnage (<a href="#char-gourdus"><code>gourdus</code></a>)</li>
+                        <li><b>GaimeLéZuitres</b> : <b class="rank0">1</b> personnage (<a href="#char-tacus"><code>tacus</code></a>)</li>
+                        <li><b>EL MALADO</b> : <b class="rank0">1</b> personnage (<a href="#char-omagus"><code>omagus</code></a>)</li>
+                        <li><b>ceriadil30</b> : <b class="rank0">2</b> personnages (<a href="#char-elcostus"><code>elcostus</code></a>, <a href="#char-messius"><code>messius</code></a>)</li>
+                    </ul>
+                </details>
+                <p>Légende :</p>
+                <ul>
+                    <li><b class="rank1">Artiste 👑</b> : Plus de 10 personnages</li>
+                    <li><b class="rank2">Artiste 💎</b> : Plus de 20 personnages</li>
+                    <li><b class="rank3">Artiste 🌹</b> : Plus de 30 personnages</li>
+                    <li><b class="rank4">Artiste 🍀</b> : Plus de 40 personnages</li>
+                </ul>
+            </div>
+
+            <!-- Other -->
+            <div id="other">
+                <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">Armus est sous license <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg"></a><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg"></a><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg"></a></p>
+            </div>
+        </section>
+
+        <section id="three">
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <a href="/" target="_blank">
+                            Créé par Apix avec ❤️ | 2022-2023
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </body>
+
+</html>
